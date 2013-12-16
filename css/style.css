@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'bebas';
+  src: url("../fonts/bebas_regular_macroman/BEBAS___-webfont.eot");
+  src: url("../fonts/bebas_regular_macroman/BEBAS___-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebas_regular_macroman/BEBAS___-webfont.woff") format("woff"), url("../fonts/bebas_regular_macroman/BEBAS___-webfont.ttf") format("truetype"), url("../fonts/bebas_regular_macroman/BEBAS___-webfont.svg#bebasregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.glyphicon-arrow-left {
+  margin-right: 10px; }
+
+.glyphicon-arrow-right {
+  margin-left: 10px; }
+
+.nav-icon {
+  margin-right: 10px; }
+
+html, body {
+  padding: 0;
+  margin: 0; }
+
+.left {
+  width: 50%;
+  background-color: #3498db;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: -1; }
+
+.right {
+  width: 50%;
+  background-color: #64a5ec;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
+
+.login-btn {
+  width: 15%;
+  background: #378be6;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding-top: 200px;
+  color: #ecf0f1;
+  font-size: 14pt; }
+  .login-btn:hover {
+    background: #1a71d0; }
+
+.testimonials-btn {
+  width: 15%;
+  background: #217dbb;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  padding-top: 200px;
+  color: #ecf0f1;
+  font-size: 14pt; }
+  .testimonials-btn:hover {
+    background: #196090; }
+
+.testimonials {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+  background: #3498db;
+  display: none;
+  z-index: 10; }
+
+.login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+  background: #64a5ec;
+  display: none;
+  z-index: 10; }
+  .login img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px; }
+
+.logo {
+  text-align: center;
+  padding: 20px 0; }
+
+.navigation {
+  text-align: center; }
+  .navigation ul {
+    padding: 0; }
+    .navigation ul li {
+      display: inline-block;
+      background: #ecf0f1;
+      padding: 15px 30px;
+      margin: 5px 0;
+      width: 140px;
+      border-radius: 5px;
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+      border: 1px solid #d4d4d4; }
+      .navigation ul li:hover {
+        background: white;
+        color: #3498db; }
+    .navigation ul .active {
+      box-shadow: none; }
+    .navigation ul .hidden-nav {
+      display: none; }
+
+@media screen and (max-width: 991px) {
+  .navigation ul .hidden-nav {
+    display: inline-block; } }
+.main-content-wrapper {
+  background: #ecf0f1;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #d4d4d4; }
+  .main-content-wrapper h1, .main-content-wrapper p, .main-content-wrapper h2 {
+    color: #4c4c4c; }
+  .main-content-wrapper h1 {
+    font-family: 'bebas';
+    letter-spacing: 1px;
+    font-size: 56pt;
+    text-decoration: none;
+    position: relative; }
+  .main-content-wrapper h1:after {
+    content: '';
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: -10px;
+    border-width: 0 0 1px;
+    border-style: solid; }
+  .main-content-wrapper h2 {
+    font-family: 'Raleway', sans-serif; }
+  .main-content-wrapper .content-body {
+    padding: 25px; }
+    .main-content-wrapper .content-body p {
+      text-align: justify;
+      font-family: 'Raleway', sans-serif; }
+
+.about-wrapper h1 {
+  font-family: 'bebas';
+  font-size: 56pt;
+  border-bottom: 1px solid #333;
+  padding: 15px 0; }
+.about-wrapper p {
+  text-align: justify; }
+.about-wrapper .dropcap {
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia; }
+.about-wrapper .about-images h1 {
+  text-align: right; }
+.about-wrapper .about-images img {
+  padding: 15px 0; }
+
+.about-quit-btn {
+  position: fixed;
+  bottom: 15;
+  right: 15;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.2); }
+  .about-quit-btn:hover {
+    background: #ecf0f1; }
+  .about-quit-btn span {
+    font-size: 18pt;
+    padding: 10px 3px; }

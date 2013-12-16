@@ -1,0 +1,45 @@
+.main-content-wrapper {
+	background: $tertiary-colour;
+	padding: 25px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+	border: 1px solid #d4d4d4;
+
+	h1, p, h2 {
+		color: #4c4c4c;
+	}
+
+	h1 {
+		font-family: 'bebas';
+		letter-spacing: 1px;
+		font-size: 56pt;
+		text-decoration: none;
+		position: relative;
+	}
+
+	h1:after {
+	    content: '';
+
+	    width: 80%;
+	    position: absolute;
+	    left: 10%;
+	    bottom: -10px;
+
+	    border-width: 0 0 1px;
+	    border-style: solid;
+	}
+
+	h2 {
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.content-body {
+		padding: 25px;
+
+		p {
+			text-align: justify;
+			font-family: 'Raleway', sans-serif;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+.navigation {
+	text-align: center;
+	ul {
+		padding: 0;
+		li {
+			display: inline-block;
+			background: $tertiary-colour;
+			padding: 15px 30px;
+			margin: 5px 0;
+			width: 140px;
+			border-radius: 5px;
+			box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+			border: 1px solid #d4d4d4;
+
+			&:hover {
+				background: white;
+				color: $primary-colour;
+			}
+		}
+
+		.active {
+			box-shadow: none;
+		}
+
+		.hidden-nav {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 991px) {
+  .navigation {
+  	ul {
+  		.hidden-nav {
+			display: inline-block;
+		}
+  	}
+  }
+}
